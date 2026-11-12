@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pixel Lens Photography — Wedding, birthday, portrait and event photography. Every picture tells a story.">
+  <meta name="theme-color" content="#0b0b0b">
+  <title>Pixel Lens Photography | Every Picture Tells a Story</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="Pixel Lens Photography home">
+      <span class="brand-mark">PL<span>✦</span></span>
+      <span class="brand-copy"><strong>PIXEL LENS</strong><small>PHOTOGRAPHY</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a>
+      <a class="nav-book" href="#booking">Book Now <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image"></div><div class="hero-shade"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow"><span></span> MOMENTS MADE TIMELESS</p>
+        <h1>Every picture<br>tells <em>a story.</em></h1>
+        <p class="hero-text">Beautifully capturing the moments, emotions and memories that matter most.</p>
+        <div class="hero-actions"><a class="button button-gold" href="#booking">Book a Session <span>↗</span></a><a class="text-link" href="#portfolio">Explore our work <span>↓</span></a></div>
+      </div>
+      <div class="hero-bottom"><span>PIXEL LENS PHOTOGRAPHY</span><span>01 — 04</span><span>SCROLL TO EXPLORE ↓</span></div>
+      <div class="hero-vertical">CREATING MEMORIES · ONE FRAME AT A TIME</div>
+    </section>
+
+    <section class="intro section-pad" id="about">
+      <div class="section-kicker reveal">01 / THE STORY</div>
+      <div class="intro-grid">
+        <div class="intro-title reveal"><p class="eyebrow">WELCOME TO PIXEL LENS</p><h2>More than a photo.<br><em>A feeling.</em></h2></div>
+        <div class="intro-copy reveal"><p>We believe the best photographs do more than capture how a moment looked — they bring back how it felt. From once-in-a-lifetime celebrations to the little details in between, every frame is created with care.</p><a class="under-link" href="#services">Discover what we do <span>↗</span></a></div>
+      </div>
+      <div class="intro-stats reveal"><div><strong>01</strong><span>YOUR MOMENT</span></div><div><strong>∞</strong><span>MEMORIES TO KEEP</span></div><div><strong>100%</strong><span>HEART IN EVERY FRAME</span></div></div>
+    </section>
+
+    <section class="services section-pad" id="services">
+      <div class="section-heading reveal"><div><p class="section-kicker">02 / WHAT WE CAPTURE</p><h2>Our <em>services.</em></h2></div><p>Thoughtful photography for the moments<br>you never want to forget.</p></div>
+      <div class="service-grid">
+        <article class="service-card reveal"><div class="service-photo wedding"></div><div class="service-meta"><span>01 / CELEBRATIONS</span><span>↗</span></div><h3>Wedding Photographer</h3><p>Honest emotions, beautiful details and the story of your day.</p><a href="#booking" class="service-link" data-service="Wedding Photographer">Book this service <span>↗</span></a></article>
+        <article class="service-card reveal"><div class="service-photo birthday"></div><div class="service-meta"><span>02 / BIG DAYS</span><span>↗</span></div><h3>Birthday Photographer</h3><p>Joyful moments, happy faces and celebrations worth remembering.</p><a href="#booking" class="service-link" data-service="Birthday Photographer">Book this service <span>↗</span></a></article>
+        <article class="service-card reveal"><div class="service-photo portrait"></div><div class="service-meta"><span>03 / PERSONAL</span><span>↗</span></div><h3>Portrait Photographer</h3><p>Natural portraits that show your personality and style.</p><a href="#booking" class="service-link" data-service="Portrait Photographer">Book this service <span>↗</span></a></article>
+        <article class="service-card reveal"><div class="service-photo event"></div><div class="service-meta"><span>04 / GATHERINGS</span><span>↗</span></div><h3>Event Photographer</h3><p>From the atmosphere to the little moments, captured beautifully.</p><a href="#booking" class="service-link" data-service="Event Photographer">Book this service <span>↗</span></a></article>
+      </div>
+    </section>
+
+    <section class="portfolio section-pad" id="portfolio">
+      <div class="section-heading reveal"><div><p class="section-kicker">03 / SELECTED WORK</p><h2>Frames & <em>stories.</em></h2></div><p>A collection of moments, emotions<br>and beautiful details.</p></div>
+      <div class="filters reveal" role="group" aria-label="Filter portfolio">
+        <button class="filter active" data-filter="all">All work</button><button class="filter" data-filter="wedding">Wedding</button><button class="filter" data-filter="birthday">Birthday</button><button class="filter" data-filter="portrait">Portrait</button><button class="filter" data-filter="event">Events</button>
+      </div>
+      <div class="gallery">
+        <button class="gallery-item tall reveal" data-category="wedding" data-full="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1800&q=90" aria-label="View wedding photograph"><img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=85" alt="Wedding celebration" loading="lazy"><span>WEDDING / 01</span></button>
+        <button class="gallery-item reveal" data-category="portrait" data-full="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1800&q=90" aria-label="View portrait photograph"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=85" alt="Portrait photography" loading="lazy"><span>PORTRAIT / 02</span></button>
+        <button class="gallery-item reveal" data-category="event" data-full="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1800&q=90" aria-label="View event photograph"><img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=900&q=85" alt="Event gathering" loading="lazy"><span>EVENT / 03</span></button>
+        <button class="gallery-item reveal" data-category="birthday" data-full="https://images.unsplash.com/photo-1530103862676-de8c9de62e5e?auto=format&fit=crop&w=1800&q=90" aria-label="View birthday photograph"><img src="https://images.unsplash.com/photo-1530103862676-de8c9de62e5e?auto=format&fit=crop&w=900&q=85" alt="Birthday celebration" loading="lazy"><span>BIRTHDAY / 04</span></button>
+        <button class="gallery-item wide reveal" data-category="wedding" data-full="https://images.unsplash.com/photo-1537633552985-df8429e8048b?auto=format&fit=crop&w=1800&q=90" aria-label="View wedding photograph"><img src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?auto=format&fit=crop&w=1200&q=85" alt="Wedding couple" loading="lazy"><span>WEDDING / 05</span></button>
+        <button class="gallery-item reveal" data-category="portrait" data-full="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1800&q=90" aria-label="View portrait photograph"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=85" alt="Natural portrait" loading="lazy"><span>PORTRAIT / 06</span></button>
+      </div>
+      <p class="gallery-note">Preview images are illustrative sample photographs. Replace them with your own work before publishing.</p>
+    </section>
+
+    <section class="quote-band"><div class="quote-mark">“</div><p class="reveal">The smallest moments often<br>make the <em>biggest memories.</em></p><span>PIXEL LENS PHOTOGRAPHY</span></section>
+
+    <section class="booking section-pad" id="booking">
+      <div class="booking-intro reveal"><p class="section-kicker">04 / LET'S MAKE IT LAST</p><h2>Your story<br>starts <em>here.</em></h2><p>Tell us a little about your event. Send your booking request directly through WhatsApp and we'll get back to you.</p><div class="booking-contact"><span>DIRECT WHATSAPP</span><a href="https://wa.me/94760609648" target="_blank" rel="noopener">+94 76 060 9648 ↗</a></div></div>
+      <form class="booking-form reveal" id="bookingForm">
+        <div class="form-heading"><span>BOOKING REQUEST</span><span>✦</span></div>
+        <label>Your name<input name="name" type="text" placeholder="Enter your full name" required maxlength="80"></label>
+        <div class="form-row"><label>Phone number<input name="phone" type="tel" placeholder="07X XXX XXXX" required maxlength="20"></label><label>Service<select name="service" id="serviceSelect" required><option value="">Choose a service</option><option>Wedding Photographer</option><option>Birthday Photographer</option><option>Portrait Photographer</option><option>Event Photographer</option></select></label></div>
+        <div class="form-row"><label>Preferred date<input name="date" type="date" id="bookingDate" required></label><label>Location<input name="location" type="text" placeholder="Event location" required maxlength="100"></label></div>
+        <label>Tell us more <span class="optional">(optional)</span><textarea name="message" rows="3" placeholder="Event details, preferred time, or any questions..." maxlength="600"></textarea></label>
+        <button class="button button-gold submit-button" type="submit">Send Booking Request <span>↗</span></button>
+        <p class="form-note">This opens WhatsApp with your booking details ready to send. Your booking is confirmed only after we reply.</p>
+      </form>
+    </section>
+
+    <section class="final-cta"><p class="eyebrow">HAVE A MOMENT WORTH KEEPING?</p><h2>Let's capture<br><em>something beautiful.</em></h2><a class="button button-outline" href="#booking">Book Your Session <span>↗</span></a></section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-main"><a class="brand footer-brand" href="#home"><span class="brand-mark">PL<span>✦</span></span><span class="brand-copy"><strong>PIXEL LENS</strong><small>PHOTOGRAPHY</small></span></a><p>Every picture tells a story.<br>Let's make yours unforgettable.</p><a class="footer-whatsapp" href="https://wa.me/94760609648" target="_blank" rel="noopener">Chat on WhatsApp ↗</a></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> PIXEL LENS PHOTOGRAPHY</span><span>MADE TO KEEP YOUR MOMENTS TIMELESS</span><a href="#top">BACK TO TOP ↑</a></div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true"><button class="lightbox-close" id="lightboxClose" aria-label="Close image">×</button><img id="lightboxImage" alt="Selected portfolio photograph"></div>
+  <script src="script.js"></script>
+</body>
+</html>
